@@ -438,7 +438,7 @@ console.log("hit")
   {
    networkId: 2,
    network: "airtel",
-   data: "15 GB",
+   data: "1.5 GB",
    price: 450,
    days: 1,
    id: 77,
