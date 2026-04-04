@@ -20,28 +20,10 @@ const dataPlans = {
    networkId: 1,
    network: "mtn",
    data: "500 MB",
-   price: 450,
-   days: 7,
-   id: 104,
-   type: "sme"
-  },
-  {
-   networkId: 1,
-   network: "mtn",
-   data: "500 MB",
    price: 550,
    days: 7,
    id: 89,
    type: "gifting"
-  },
-  {
-   networkId: 1,
-   network: "mtn",
-   data: "500 MB",
-   price: 550,
-   days: 7,
-   id: 61,
-   type: "sme"
   },
   {
    networkId: 1,
@@ -73,29 +55,11 @@ const dataPlans = {
   {
    networkId: 1,
    network: "mtn",
-   data: "1 GB",
-   price: 890,
-   days: 7,
-   id: 62,
-   type: "sme"
-  },
-  {
-   networkId: 1,
-   network: "mtn",
    data: "1.2 GB",
    price: 800,
    days: 7,
    id: 57,
    type: "gifting"
-  },
-  {
-   networkId: 1,
-   network: "mtn",
-   data: "2 GB",
-   price: 960,
-   days: 7,
-   id: 117,
-   type: "sme"
   },
   {
    networkId: 1,
@@ -123,15 +87,6 @@ const dataPlans = {
    days: 30,
    id: 67,
    type: "gifting"
-  },
-  {
-   networkId: 1,
-   network: "mtn",
-   data: "3 GB",
-   price: 1400,
-   days: 7,
-   id: 118,
-   type: "sme"
   },
   {
    networkId: 1,
@@ -394,15 +349,6 @@ const dataPlans = {
    data: "10 GB",
    price: 3200,
    days: 30,
-   id: 47,
-   type: "gifting"
-  },
-  {
-   networkId: 2,
-   network: "airtel",
-   data: "10 GB",
-   price: 3200,
-   days: 30,
    id: 105,
    type: "CG"
   },
@@ -587,16 +533,7 @@ const dataPlans = {
    extra: "3GB Night",
    type: "gifting"
   },
-  {
-   networkId: 3,
-   network: "glo",
-   data: "10 GB",
-   price: 3050,
-   days: 30,
-   id: "n26",
-   extra: "2GB Night",
-   type: "gifting"
-  },
+
   {
    networkId: 3,
    network: "glo",

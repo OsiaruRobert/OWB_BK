@@ -179,7 +179,8 @@ export async function pendTransaction(user, miniPayload, kind) {
   return {
     transId: id,
     _id,
-    user
+    user,
+    description
   }
 
 }
@@ -208,9 +209,11 @@ export async function verifyTransaction(transactionRes, user, ref) {
   if (transactionRes.status !== "success") {
     console.log(transactionRes)
     throw new Error("Transaction failed. Your money has been refunded.");
+ //  throw new Error(transactionRes.message);
   } else {
-    console.log(`successful Purchase : ${user.transactions[index].description}`)
-
+  	const successMessage = `Successful Purchase : ${user.transactions[index].description}`;
+    console.log(successMessage)
+			return successMessage
   }
 
 }
